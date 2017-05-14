@@ -1,0 +1,1 @@
+wget -O /home/isura/Documents/VirusShare_00009.md5 "https://virusshare.com/hashes/VirusShare_00009.md5"

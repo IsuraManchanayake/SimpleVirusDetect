@@ -23,9 +23,13 @@ public class VirusReport {
     public String toString() {
     	String str = "";
     	if(this.isVirus) {
+			str += "============\n";
     		str += "Virus found!\n";
+			str += "============\n";
     	} else {
+			str += "========================\n";
     		str += "Unable to detect a virus\n";
+			str += "========================\n";
     	}
 		str += "md5 hash: " + this.md5Hash + "\n";
 		str += "database file name: " + this.detectedFileName + "\n";
